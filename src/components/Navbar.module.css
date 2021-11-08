@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500&display=swap");
+a {
+  text-decoration: none;
+  color: #fff;
+}
+ul {
+  list-style: none;
+}
+
+nav {
+  background-color: #000a4b;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  padding: 0px 12px;
+}
+.navlogo {
+  width: 255px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navlogo img {
+  width: 161.17px;
+  height: 36px;
+}
+.balance {
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+.bal_amount {
+  color: #65e55c;
+  margin-top: 4px;
+}
+.navcontent {
+  display: flex;
+}
+.navlinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+}
+.navlinks::after {
+  content: "";
+  width: 1px;
+  height: 21px;
+  background-color: #707070;
+  margin-left: 10px;
+}
+.navlinks li {
+  margin: 0px 10px;
+  font-size: 13px;
+}
+.navlinks li a {
+  font-weight: 400;
+}
+.navlinks li button {
+  background-color: #5832e0;
+  width: 95px;
+  height: 31px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px;
+}
+.notifications {
+  width: 25px;
+  margin: 8px;
+}
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user img {
+  width: 32px;
+  margin: 5px;
+}
+.user h4 {
+  color: #fff;
+  font-size: 13px;
+  margin-left: 8px;
+  font-weight: 400;
+}
