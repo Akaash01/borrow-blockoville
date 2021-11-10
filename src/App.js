@@ -1,10 +1,12 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
+import PopupContainer from "./components/PopupContainer";
+import Repayment from "./components/Repayment";
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      Akaash
+      <PopupContainer title="Repay">
+        <Repayment />
+      </PopupContainer>
     </div>
   );
 }
