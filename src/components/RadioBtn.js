@@ -1,9 +1,8 @@
 import React from "react";
-import "./RadioBtn.css";
 
 const RadioBtn = (props) => {
   return (
-    <label htmlfor={"_" + props.value} class="radio-container">
+    <label htmlFor={"_" + props.value} className="radio-container">
       <input
         type="radio"
         id={"_" + props.value}

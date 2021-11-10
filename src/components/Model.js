@@ -1,11 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import PopupContainer from "./PopupContainer";
+import Repayment from "./Repayment";
 const Backdrop = (props) => {
   return <div className="backdrop" onClick={props.onclose}></div>;
 };
 
-const Modaloverlay = () => {
-  return <div className="modal"></div>;
+const Modaloverlay = (props) => {
+  return (
+    <div id="overlay">
+      <PopupContainer title="Repay" onclose={props.onclose}>
+        <Repayment />
+      </PopupContainer>
+    </div>
+  );
 };
 const Modal = (props) => {
   return (
@@ -15,7 +23,7 @@ const Modal = (props) => {
         document.getElementById("backdrop")
       )}
       {ReactDOM.createPortal(
-        <Modaloverlay />,
+        <Modaloverlay onclose={props.popuphandler} />,
         document.getElementById("overlay-root")
       )}
     </React.Fragment>

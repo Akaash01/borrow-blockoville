@@ -1,4 +1,4 @@
-import FooterProfit from "./FooetrProfit";
+import FooterProfit from "./FooterProfit";
 import FooterLoss from "./FooterLoss";
 
 const Footer = () => {
