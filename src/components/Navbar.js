@@ -16,10 +16,12 @@ const Navbar = () => {
       <div className="nav-content flex">
         <ul className={`flex ${isactive ? "active" : ""}`}>
           <li className="f-13px">
-            <a href="#">Exchange</a>
+            <a href="https://github.com/Akaash01/borrow-blockoville">
+              Exchange
+            </a>
           </li>
           <li className="f-13px">
-            <a href="#">Margin</a>
+            <a href="https://github.com/Akaash01/borrow-blockoville">Margin</a>
           </li>
 
           <li className="f-13px">
