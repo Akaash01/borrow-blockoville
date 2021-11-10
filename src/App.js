@@ -1,12 +1,13 @@
 import "./App.css";
-import PopupContainer from "./components/PopupContainer";
-import Repayment from "./components/Repayment";
+import Navbar from "./components/Navbar";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <PopupContainer title="Repay">
-        <Repayment />
-      </PopupContainer>
+      <Navbar />
+      <Main />
+      <Footer />
     </div>
   );
 }
