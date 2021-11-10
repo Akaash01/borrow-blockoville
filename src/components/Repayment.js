@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./Repayment.css";
 import RadioBtn from "./RadioBtn";
 import DropDown from "./DropDown";
 const Repayment = () => {
@@ -12,7 +11,7 @@ const Repayment = () => {
     <div className="repaymentContainer">
       <div className="repaymentLeft">
         <form className="renameForm">
-          <label htmlfor="Repayment Amount">
+          <label htmlFor="Repayment Amount">
             <p className="labelText">Repayment Amount</p>
             <div className="inputContainer">
               <input
@@ -74,13 +73,14 @@ const Repayment = () => {
             <p className="rowLeft">LTV after Repayment</p>
             <p className="rowRight">0.00%</p>
           </div>
-          <label htmlfor="repay-with-collateral" className="repay-Collateral">
+          <label htmlFor="repay-with-collateral" className="repay-Collateral">
             <input type="checkbox" id="repayCol" />
             <div className="custom-checkbox">
               <img src="./images/tick.svg" alt="" />
             </div>
             <p className="repay-with-collateral">Repay with Collateral</p>
           </label>
+          <button className="confirm-btn">Confirm</button>
         </div>
       </div>
     </div>

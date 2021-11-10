@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./DropDown.css";
 const DropDown = ({ selected, setSelected }) => {
   const options = [
     { key: 1, value: "AXS", imgSrc: "./images/AXS.svg" },
